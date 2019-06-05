@@ -1,0 +1,149 @@
+/*-- GENERAL --*/
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: Helvetica, Arial;
+  font-size: 13px;
+  line-height: 22px;
+  color: #333;
+  -webkit-text-size-adjust: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 1;
+  font-family: 'Kameron', serif;
+  color: #330;
+  font-weight: bold;
+}
+
+h1, h2, h3{	font-size: 20px;}
+
+h4, h5, h6{	font-size: 16px;}
+
+p{
+  margin: 0 0 10px 0;}
+
+a{
+  color: #333;
+  text-decoration:none;}
+
+a:hover{
+  color: #C7D0E7;
+  text-decoration:none;}
+
+.item {
+  margin-bottom: 30px;}
+
+.container{
+  margin-top: 50px;
+  padding-top: 50px;}
+
+/*-- BARRE DE NAVIGATION --*/
+#header{
+  background: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  height: 60px;
+  padding: 10px;}
+
+#header a{
+  background: center center no-repeat transparent;
+  background-image: url(../images/burger-menu.png);
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  line-height: 40px;
+  top: 0;}
+
+.logo-header{
+  margin-left:150px;
+}
+/*-- SLIDESHOW --*/
+.carousel-item {
+	width: 100vw;
+	height: 90vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+/*-- BOUTONS --*/
+.bouton{
+  border-radius: 38px;
+  border: 1px solid #707070;
+  padding: 10px 30px 10px 30px;
+  margin-bottom: 40px;
+}
+
+.bouton:hover{
+  border:1px solid #C7D0E7;
+}
+
+/*-- FOOTER --*/
+footer li{
+font-family: 'Kameron', serif;
+list-style-type:none;
+list-style: none;
+}
+.copyrights{
+  text-align:left;
+  font-size:12px;
+}
+.social-networks{
+  text-align:right;
+}
+.social-networks li{
+  display:inline-grid;
+  list-style-type:none;
+  text-decoration:none;
+  font-size:30px;
+  margin-left: 30px;
+  color: grey;
+    margin-bottom: 30px;}
+
+#logo-footer{
+  width:100px;
+  margin-bottom:0px;
+  margin:auto;}
+
+/*-- SECTIONS --*/
+section{
+  width:65vw;
+  text-align:center;
+  margin:auto;
+}
+section p{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+section h2{
+    margin-top: 40px;
+}
+
+#section-3{
+  margin-bottom: 40px;
+}
+
+#section-2{
+  margin-bottom: 40px;
+}
+#section-1 h4{
+  margin-top: 20px;
+  text-align:left;
+  border-bottom: 2px solid #707070;
+  display: inline-block;
+}
+#section-1 h4:hover{
+  border-bottom: 2px solid #C7D0E7;
+}
+
+/*-- MENU --*/
