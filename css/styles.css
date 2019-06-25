@@ -1,149 +1,685 @@
 /*-- GENERAL --*/
+
 html, body{
-  padding: 0;
-  margin: 0;
-}
+padding: 0;
+margin: 0;}
 
 body {
-  background-color: #fff;
-  font-family: Helvetica, Arial;
-  font-size: 13px;
-  line-height: 22px;
-  color: #333;
-  -webkit-text-size-adjust: none;
-}
+background-color: #fff;
+font-family: Helvetica, Arial;
+overflow-x:hidden;
+letter-spacing: 0.25px;
+font-size: 14px;
+line-height: 1.625;
+color: #333;
+padding: 0;
+margin: 0;}
 
 h1, h2, h3, h4, h5, h6{
-  line-height: 1;
-  font-family: 'Kameron', serif;
-  color: #330;
-  font-weight: bold;
-}
+font-family: Times,serif;
+line-height: 1;
+color: #061724;}
 
-h1, h2, h3{	font-size: 20px;}
+h2{
+font-style: italic;
+font-weight: normal;
+font-size: 2.125em;
+line-height: 1.2;}
 
-h4, h5, h6{	font-size: 16px;}
+h3{
+font-style: italic;
+font-weight: normal;
+font-size: 1.7em;
+line-height: 1.2;}
+
+h4{
+margin: 7px 0;
+font-size: 15px;
+text-transform: none;
+letter-spacing: 0;}
+
 
 p{
-  margin: 0 0 10px 0;}
+margin: 0 0 10px 0;}
 
 a{
-  color: #333;
-  text-decoration:none;}
+color: #333;
+text-decoration:none;}
 
 a:hover{
-  color: #C7D0E7;
-  text-decoration:none;}
+color: #1326C3;
+text-decoration:none;}
 
 .item {
-  margin-bottom: 30px;}
+margin-bottom: 30px;}
 
 .container{
-  margin-top: 50px;
-  padding-top: 50px;}
+margin-top: 20px;
+padding-top: 40px;}
 
 /*-- BARRE DE NAVIGATION --*/
+
+nav form{
+margin-left:40px;}
+
 #header{
-  background: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
-  text-align: center;
-  line-height: 40px;
-  height: 60px;
-  padding: 10px;}
+background: #fff;
+font-size: 16px;
+font-weight: bold;
+color: #fff;
+text-align: center;
+line-height: 40px;
+width: auto;
+height: 60px;
+padding-top: 10px;
+padding-bottom: 10px;}
 
-#header a{
-  background: center center no-repeat transparent;
-  background-image: url(../images/burger-menu.png);
-  display: block;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  line-height: 40px;
-  top: 0;}
+#header #burger a{
+background: center center no-repeat transparent;
+background-image: url(../images/burger-menu.png);
+display: block;
+width: 40px;
+height: 40px;
+position: absolute;
+line-height: 40px;
+top: 0;}
 
-.logo-header{
-  margin-left:150px;
-}
+#logo-header a{
+margin:auto;}
+
 /*-- SLIDESHOW --*/
+
 .carousel-item {
-	width: 100vw;
-	height: 90vh;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;}
+width: 100vw;
+height: 90vh;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;}
+
+.carousel-item h1{
+color: #fff;
+font-style: italic;
+font-weight: normal;
+font-size: 3em;
+position: relative;
+padding-top: 40vh;
+padding-left: 10vw;
+margin: 0px auto;
+line-height: 1.2;}
+
+.carousel-item h2{
+color: #fff;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5em;
+position: relative;
+margin: 0px auto;
+padding-top: 2vh;
+padding-left: 10vw;
+line-height: 1.2;}
 
 /*-- BOUTONS --*/
+
 .bouton{
-  border-radius: 38px;
-  border: 1px solid #707070;
-  padding: 10px 30px 10px 30px;
-  margin-bottom: 40px;
-}
+border-radius: 38px;
+border: 1px solid #1326C3;
+background-color: #fff;
+color: #1326C3;
+padding: 10px 30px 10px 30px;}
 
 .bouton:hover{
-  border:1px solid #C7D0E7;
-}
+background-color:#0F2E6A;
+border: 1px solid #0F2E6A;
+border:none;
+color: #fff;}
+
+#section-2 .bouton{
+border-radius: 38px;
+border: 1px solid #1326C3;
+background-color: #F6F6F5;
+color: #1326C3;
+padding: 10px 30px 10px 30px;}
+
+#section-2 .bouton:hover{
+background-color:#0F2E6A;
+border: 1px solid #0F2E6A;
+border:none;
+color: #fff;}
+
+#bienfaits .bouton{
+border-radius: 38px;
+border: 1px solid #1326C3;
+background-color: #F6F6F5;
+color: #1326C3;
+padding: 10px 30px 10px 30px;}
+
+#bienfaits .bouton:hover{
+background-color:#0F2E6A;
+border: 1px solid #0F2E6A;
+border:none;
+color: #fff;}
 
 /*-- FOOTER --*/
+
 footer li{
-font-family: 'Kameron', serif;
+  font-size: 12px;
 list-style-type:none;
-list-style: none;
-}
+list-style: none;}
+
 .copyrights{
-  text-align:left;
-  font-size:12px;
-}
+text-align:left;
+font-size:12px;}
+
 .social-networks{
-  text-align:right;
-}
+text-align:right;}
+
 .social-networks li{
-  display:inline-grid;
-  list-style-type:none;
-  text-decoration:none;
-  font-size:30px;
-  margin-left: 30px;
-  color: grey;
-    margin-bottom: 30px;}
+display:inline-grid;
+list-style-type:none;
+text-decoration:none;
+font-size:20px;
+margin-left: 30px;
+color: grey;
+margin-bottom: 30px;}
 
 #logo-footer{
-  width:100px;
-  margin-bottom:0px;
-  margin:auto;}
+width:100px;
+margin:auto;}
 
 /*-- SECTIONS --*/
-section{
-  width:65vw;
-  text-align:center;
-  margin:auto;
-}
-section p{
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-section h2{
-    margin-top: 40px;
-}
 
-#section-3{
-  margin-bottom: 40px;
-}
+section{
+width:75vw;
+text-align:center;
+padding: 20px;
+margin:auto;}
+
+section p{
+margin-top: 20px;
+margin-bottom: 30px;}
+
+section h2{
+margin-top: 40px;}
+
+#section-1 h3{
+margin: 7px 0;
+font-size: 17px;
+text-transform: none;
+letter-spacing: 0;}
+
+#section-1 h4{
+margin: 7px 0;
+font-size: 15px;
+text-transform: none;
+letter-spacing: 0;}
+
+#section-1 h6{
+font-weight: 400;
+letter-spacing: 1px;
+color: #8a8a8a;
+font-size:13px;}
+
+#section-1 h2:after{
+border-bottom: 1px solid #000;
+transform: translateX(-50%);
+width: 50px;
+margin-top: 50px;
+padding-bottom: -30px;
+content: '';
+height: 1px;
+left: 50%;
+position: absolute;}
+
+
+#section-2 h2{
+color:#000;}
+
+#section-2 h2:after{
+border-bottom: 1px solid #000;
+transform: translateX(-50%);
+width: 50px;
+margin-top: 50px;
+padding-bottom: -30px;
+content: '';
+height: 1px;
+left: 50%;
+position: absolute;}
 
 #section-2{
-  margin-bottom: 40px;
+background-color: #F6F6F5;
+background-image: url('../images/lithotherapy.jpg');
+background-position: right;
+background-size: contain;
+background-repeat: no-repeat;
+color:#000;
+margin: 0 auto;
+width: 100%;
+padding: 30px 0;
+width: 100%;}
+
+#section-2{
+background-color: #F6F6F5;
+background-image: url('../images/lithotherapy.jpg');
+background-position: right;
+background-size: contain;
+background-repeat: no-repeat;
+color:#000;
+margin: 0 auto;
+width: 100%;
+padding: 30px 0;
+width: 100%;}
+
+#section-2 p{
+display: flex;
+align-items: center;
+flex-flow: column;
+margin: 40px auto;
+width: 60%;
+text-align: left;}
+
+#section-2 .description{
+padding-top: 10px;
+padding-bottom: 30px;
+padding-left:30px;}
+
+#section-3{
+background-color: #fff;
+color: #000;
+margin: 0 auto;
+width: 100%;
+padding: 30px 0;
+width: 100%;}
+
+#section-3 p{
+display: flex;
+align-items: center;
+flex-flow: column;
+margin: 40px auto;
+font-size: 14px;
+width: 60%;
+text-align: left;}
+
+#section-3 .description{
+padding-top: 10px;
+padding-bottom: 30px;
+padding-left:30px;}
+
+#section-3 h2:after{
+border-bottom: 1px solid #000;
+transform: translateX(-50%);
+width: 50px;
+margin-top: 50px;
+padding-bottom: -30px;
+content: '';
+height: 1px;
+left: 50%;
+position: absolute;}
+
+#section-5{
+background-color: #fff;
+color: #000;
+margin: 0 auto;
+width: 100%;
+padding: 30px 0;
+width: 100%;}
+
+#section-5 p{
+display: flex;
+align-items: center;
+flex-flow: column;
+margin: 40px auto;
+font-size: 14px;
+width: 60%;
+text-align: left;}
+
+#section-5 .description{
+padding-top: 10px;
+padding-bottom: 30px;
+padding-left:30px;}
+
+#section-5 h2:after{
+border-bottom: 1px solid #000;
+transform: translateX(-50%);
+width: 50px;
+margin-top: 50px;
+padding-bottom: -30px;
+content: '';
+height: 1px;
+left: 50%;
+position: absolute;}
+
+
+
+#section-2b h2{
+color:#000;}
+
+#section-2b h2:after{
+border-bottom: 1px solid #000;
+transform: translateX(-50%);
+width: 50px;
+margin-top: 50px;
+padding-bottom: -30px;
+content: '';
+height: 1px;
+left: 50%;
+position: absolute;}
+
+#section-2b{
+background-color: #F6F6F5;
+background-image: url('../images/lithotherapy.jpg');
+background-position: right;
+background-size: contain;
+background-repeat: no-repeat;
+color:#000;
+margin: 0 auto;
+width: 100%;
+padding: 30px 0;
+width: 100%;}
+
+#section-2b{
+background-color: #F6F6F5;
+background-image: url('../images/pineapple.jpg');
+background-position: right;
+background-size: contain;
+background-repeat: no-repeat;
+color:#000;
+margin: 0 auto;
+width: 100%;
+padding: 30px 0;
+width: 100%;}
+
+#section-2b p{
+display: flex;
+align-items: center;
+flex-flow: column;
+margin: 40px auto;
+width: 60%;
+text-align: left;}
+
+#section-2b .description{
+padding-top: 10px;
+padding-bottom: 30px;
+padding-left:30px;}
+
+/*-- COLLECTION PERMANENTE --*/
+
+#banner {
+background-color: #F6F6F5;
+background-image: url('../images/eye.png');
+background-position: right;
+background-size: 50%;
+background-repeat: no-repeat;
+background
+color:#000;
+margin: 0 auto;
+padding: 30px 0;
+width: 100%;
+margin-bottom: 30px;}
+
+#banner h2{
+color:#000;}
+
+.center{
+margin:auto;
+float:none;  /* annule le float:left de bootstrap*/}
+
+/*-- COLLECTION PERMANENTE --*/
+
+.collection {
+position:relative;
+background-size:cover;
+background-position:center center;
+background-repeat:no-repeat;}
+
+.collection-entry{
+width:100%;
+display:block;
+z-index:0;}
+
+.collection-entry .collection{
+width:33.3%;
+float:left;
+height:200px;
+position:relative;}
+
+.collection-entry .collection:before{
+width:1px;
+height:40px;
+top:11px;
+left:30px}
+
+/*-- FEED INSTAGRAM --*/
+
+.instagram {
+position:relative;
+background-size:cover;
+background-position:center center;
+background-repeat:no-repeat;}
+
+.instagram-entry{
+width:100%;
+display:block;
+z-index:0;}
+
+.instagram-entry .instagram{
+width:16.6%;
+float:left;
+overflow:hidden;
+height:200px;
+position:relative;}
+
+.instagram-entry .instagram:before{
+width:1px;
+height:40px;
+overflow:hidden;
+top:11px;
+left:30px}
+
+/*-- MENU DEROULANT --*/
+
+#menuderoulant{
+width:300px;}
+
+.menuderoulant{
+text-indent: 40px;
+margin-bottom: 20px;
+margin-top: 20px;}
+
+.sousmenuderoulant a{
+font-size: 14px;
+width: 40vw;
+text-align:left;}
+
+
+#logo-menu {
+margin-left: 40px;
+margin-bottom: 30px;}
+
+/*-- NEWSLETTER--*/
+
+#newsletter {
+padding: 60px 0;}
+
+#newsletter .content {
+max-width: 450px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+
+#newsletter .content h2 {
+color: #243c4f;
+margin-bottom: 40px; }
+
+#newsletter .content .form-control {
+height: 30px;
+border-color: #ffffff;
+font-size:12px;
+border-radius:0;}
+
+#newsletter .content.form-control:focus {
+box-shadow: none;
+border: 2px solid #243c4f;}
+
+#newsletter .content .btn {
+max-height: 30px;
+border-radius: 38px;
+font-size:12px;
+color: #fff;
+font-weight:200;
+border-radius: 38px;
+border: 1px solid #1326C3;
+color: #1326C3;}
+
+#newsletter .content .btn:hover{
+background-color:#0F2E6A;
+border: 1px solid #0F2E6A;
+color: #fff;}
+
+/*-- BOOTSTRAP 5 COLONNES EGALES --*/
+.col-2_4,
+.col-sm-2_4,
+.col-md-2_4,
+.col-lg-2_4,
+.col-xl-2_4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
-#section-1 h4{
-  margin-top: 20px;
-  text-align:left;
-  border-bottom: 2px solid #707070;
-  display: inline-block;
+.col-2_4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
 }
-#section-1 h4:hover{
-  border-bottom: 2px solid #C7D0E7;
+@media (min-width: 540px) {
+    .col-sm-2_4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 720px) {
+    .col-md-2_4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 960px) {
+    .col-lg-2_4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 1140px) {
+    .col-xl-2_4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
 }
 
-/*-- MENU --*/
+.container-fluid{
+  margin-bottom: 25vh;
+  margin-top: 25vh;
+}
+
+/*-- FICHE PRODUIT --*/
+
+#banner-watch {
+width: 100vw;
+height: 90vh;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding: 10px;
+color: #fff;
+margin-bottom: 30px;}
+
+#banner-watch h2{
+color:#fff;}
+
+#watch{
+background-color: #fff;
+color: #000;
+margin: 0 auto;
+padding: 30px 0;
+width: 100%;}
+
+#watch p{
+display: flex;
+align-items: left;
+flex-flow: column;
+margin: 40px auto;
+font-size: 14px;
+width: 70%;
+text-align: left;}
+
+#watch .description{
+padding-top: 10px;
+padding-bottom: 30px;
+padding-right:30px;}
+
+#watch h2:after{
+border-bottom: 1px solid #000;
+transform: translateX(-50%);
+width: 50px;
+margin-top: 50px;
+padding-bottom: -30px;
+content: '';
+height: 1px;
+left: 50%;
+position: absolute;}
+
+/*-- BIENFAITS LITHOTHERAPIE --*/
+
+
+#bienfaits h2{
+color:#000;}
+
+#bienfaits h2:after{
+border-bottom: 1px solid #000;
+transform: translateX(-50%);
+width: 50px;
+margin-top: 50px;
+padding-bottom: -30px;
+content: '';
+height: 1px;
+left: 50%;
+position: absolute;}
+
+#bienfaits{
+background-color: #F6F6F5;
+background-image: url('../images/lithotherapy.jpg');
+background-position: right;
+background-size: contain;
+background-repeat: no-repeat;
+color:#000;
+margin: 0 auto;
+padding: 30px 0;
+width: 100%;}
+
+#bienfaits p{
+display: flex;
+align-items: center;
+flex-flow: column;
+margin: 40px auto;
+width: 60%;
+text-align: left;}
+
+#bienfaits .description{
+padding-top: 10px;
+padding-bottom: 30px;
+padding-left:30px;}
